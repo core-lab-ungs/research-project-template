@@ -1,0 +1,19 @@
+﻿cff-version: 1.2.0
+message: "If you use this project, please cite it using the metadata below."
+title: "[Project Title]"
+type: software
+authors:
+  - family-names: "[Family name]"
+    given-names: "[Given names]"
+    affiliation: "Universidad Nacional de General Sarmiento"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+repository-code: "https://github.com/core-lab-ungs/[repository-name]"
+license: "MIT"
+version: "0.1.0"
+date-released: "2026-01-01"
+keywords:
+  - operating systems
+  - computer networks
+  - cybersecurity
+  - distributed systems
+  - machine learning
