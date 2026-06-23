@@ -1,0 +1,64 @@
+﻿# Secrets and local configuration
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+secrets/
+credentials/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# Java
+*.class
+target/
+
+# Node.js
+node_modules/
+
+# Compiled files
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*~
+.cache/
+
+# Large or generated research artifacts
+data/raw/*
+data/processed/*
+results/raw/*
+checkpoints/
+models/
+
+# Preserve directory documentation or placeholders
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!results/raw/.gitkeep
